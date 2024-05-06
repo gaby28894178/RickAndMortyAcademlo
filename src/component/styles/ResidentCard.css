@@ -1,0 +1,97 @@
+/* container de card */
+
+
+
+.resident{
+    width: 100%;
+    max-width: 19em;
+    border-radius: 0.3em;
+    overflow: hidden;
+    border: 1px solid rgb(239, 123, 8);
+    margin-bottom: 0.8em;
+    padding: 0.5em;
+    box-shadow:  2px 2px 3px rgb(237, 125, 14);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: transform 100ms ease;
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+    &:hover{
+        box-shadow:  2px 2px 3px rgb(237, 125, 14);
+        transform: scale(1.04);
+
+
+    }
+
+}
+
+.resident__header{
+    position: relative;
+}
+
+
+.resident__status__conteiner{
+    position: absolute;
+    top: 3em;
+    background-color: rgba(0, 0, 0, 0.727);
+    color: rgb(122, 184, 120);
+    width: 40%;
+    max-width: 35%;
+    padding: 0.3em 1em;
+    border-radius: 0  0.5em 0.5em 0;
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+.resident__status__circule{
+    width: 1em;
+    aspect-ratio: 1;
+    background-color: rgb(203, 194, 19);
+    border-radius: 50%;
+   
+}
+.Alive{
+    background-color: green;
+}
+.Dead{
+    background-color: red;
+}
+.resident__status{
+    font-size: 0.9em;
+    font-weight: 500;
+
+}
+.resident__body{
+    color: aliceblue;
+    padding: 0.10em 0.1em 0.5em ;
+    font-family:cursive ;
+    font-size: 0.92em;
+
+}
+.resident__name{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+}
+.resident__hr{
+margin-top: 0.1em;
+margin-bottom: 0.1em;
+border-color: rgb(255, 132, 9);
+}
+.resident__list{
+    display: grid;
+    gap: 0.2em;
+}
+.resident__item{
+    display: grid;
+    gap: 0.2em;
+}
+.resident__label{
+    font-size: 0.8em;
+    color: #daed0f;
+    padding-left: 1em;
+}
+
+.resident__value{
+    font-size: 0.9em;
+}

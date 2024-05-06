@@ -1,0 +1,17 @@
+
+
+
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    
+}
+.form{
+    background-image: url('../public/imagenBaner/baner00.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24vh;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&family=Shadows+Into+Light&display=swap');
+
+/*Reset */
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poetsen One", sans-serif;
+    background-image: url('../fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;   
+    
+}
+body{
+    margin:  1em  1em  1em  1em;
+    padding: 0;
+    background-color: rgba(56, 54, 54, 0.85);
+    border: 1px solid wheat;
+    /* color: rgb(129, 155, 178); */
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Header */
+
+input,button{
+        font-family: inherit;
+        border:none;   
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2em;  
+        padding: 0.5em 1em;
+        
+        
+
+  }
+    input{
+        outline: none;
+        margin: 1em;
+        width: 19em;
+        padding: 1em;
+        border: 1px solid wheat;
+        border-radius: 0.95em;   
+        background-color: rgb(129, 155, 178);
+        font-size: 0.93em; 
+   
+    }
+button{
+    outline: none;
+    margin: 1em;
+    width: 9em;
+    padding: 1em;
+    border: 1px solid wheat;
+    border-radius: 0.95em;
+    background-color: rgb(129, 155, 178);
+    color: white;
+    cursor: pointer;
+}
+
+

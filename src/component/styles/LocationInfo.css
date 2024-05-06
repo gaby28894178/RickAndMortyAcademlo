@@ -1,0 +1,48 @@
+.location{
+    background-color: rgba(46, 73, 36, 0.965);
+    color: rgb(197, 204, 211);
+    width: 99%;
+    height: 10em;
+    max-width: 85em;
+   padding: -1em 0.5em ;
+    margin: 1em 0.6em 1em 1em ;
+    border-radius: 0.8em;
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+    text-align: center;  
+    margin-bottom: 4em;  
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+    .location__name{
+        text-align: center;
+        font-weight: 500;
+        color: green;
+        margin-bottom: 0.5em;
+        
+    }
+    .location__list{
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        padding: -1em;
+    }
+    .location__item{
+        display: grid;
+      justify-items: center;
+      gap: 0.9em;
+
+    }
+
+    .location__label{
+        font-size: 0.9em;
+        color: greenyellow;
+        
+    }
+
